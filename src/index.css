@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #202120;
+}
+
+@font-face {
+  font-family: "Area";
+  src: url('./fonts/fonnts.com-Area_Normal_ExtraBold.otf')
+} 
+@font-face {
+  font-family: "Area1";
+  src: url('./fonts/fonnts.com-Area_Inktrap_Black.otf')
+}
