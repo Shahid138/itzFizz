@@ -1,12 +1,8 @@
-import { useState } from 'react'
-import './App.css'
-import Hero from './components/Hero'
+import "./App.css";
+import Hero from "./components/Hero";
 
 function App() {
-
-  return (
-    <Hero/>
-  )
+	return <Hero />;
 }
 
-export default App
+export default App;

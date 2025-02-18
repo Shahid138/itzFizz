@@ -16,3 +16,7 @@ body {
   font-family: "Area1";
   src: url('./fonts/fonnts.com-Area_Inktrap_Black.otf')
 }
+@font-face {
+  font-family: "phonk";
+  src: url('./fonts/Phonk-RegularDEMO.otf')
+}
