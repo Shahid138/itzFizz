@@ -205,7 +205,7 @@ const Hero = () => {
 			</div>
 
 			<div
-				className="relative flex flex-col items-center justify-center h-screen -mt-10 bg-[#202120] [pointer-events:none]"
+				className="relative flex flex-col items-center justify-center h-screen bg-[#202120] [pointer-events:none]"
 				style={{ isolation: "isolate" }}
 			>
 				<div className="absolute inset-0 [pointer-events:auto]">
