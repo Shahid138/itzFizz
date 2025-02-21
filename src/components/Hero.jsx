@@ -6,13 +6,11 @@ const Hero = () => {
   const tlRef = useRef(null);
 
   useEffect(() => {
-    // Import GSAP dynamically
     const loadGSAP = async () => {
       const gsap = (await import('gsap')).default;
       
       tlRef.current = gsap.timeline({ paused: true });
-      
-      // Animate each image to center
+    
       imagesRef.current.forEach((img, index) => {
         if (!img) return;
         
@@ -21,7 +19,6 @@ const Hero = () => {
         }, 0);
       });
 
-      // Animate text
       tlRef.current.to('.hero-text', {
         color: 'transparent',
         webkitTextStroke: '0.4px rgba(255, 255, 255, 0.95)',
@@ -91,7 +88,6 @@ const Hero = () => {
       </div>
 
       <div className="relative flex flex-col items-center justify-center h-screen">
-        {/* Corner Images */}
         <img
           ref={el => imagesRef.current[0] = el}
           src="/top_left.png" 
