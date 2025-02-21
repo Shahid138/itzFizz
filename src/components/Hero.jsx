@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-
 const Hero = () => {
 	const imagesRef = useRef([]);
 	const captionsRef = useRef([]);
@@ -183,7 +182,7 @@ const Hero = () => {
 	return (
 		<div className="h-screen overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
 			<div className="flex justify-between items-center p-8 bg-[#202120] text-white">
-				<img src="./public/logo.svg" className="flex space-x-4" alt="logo" />
+				<img src="./src/logo.svg" className="flex space-x-4" alt="logo" />
 				<div className="flex space-x-20 text-xl font-helvetica">
 					<a href="#about" className="font-semibold hover:text-gray-400">
 						Our vision
